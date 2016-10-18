@@ -1,0 +1,114 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.8;
+	color: #818181;
+}
+h1 {
+	font-size: 64px;
+	color: #FF3D00;
+	font-weight: 800;
+	margin-bottom: 30px;
+}
+h2 {
+	font-size: 24px;
+	color: #303030;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+h4 {
+	font-size: 19px;
+	line-height: 1.375em;
+	color: #303030;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.right {
+    position: absolute;
+    right: 20px;
+}
+.jumbotron {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 150px 25px;
+    font-family: Montserrat, sans-serif;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+.redButton{
+	background-color: #FF3D00;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 24px !important;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #1565C0;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #1565C0 !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.logo-small {
+    color: #2196F3;
+    font-size: 50px;
+}
+.logo {
+    color: #2196F3;
+    font-size: 200px;
+}
+.bg-grey {
+	background-color: #f6f6f6;
+}
+.img-blur {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+.spacer {
+	padding-bottom: 1000px;
+}
+.red {
+	color: #FF3D00;
+	vertical-align: middle;
+}
+.redText {
+	color: #FF3D00;
+	vertical-align: middle;
+	font-size: 36px;
+	font-weight: 800;
+	padding-right: 10px
+}
+.redText:hover {
+    animation: moveRight 0.4s forwards;
+}
+.redButton:hover {
+    animation: buttonColors 0.4s forwards;
+    color: #fff;
+}
+@keyframes moveRight {
+    from {padding-right: 10px;}
+    to {padding-right: 0px;}
+
+}
+@keyframes buttonColors {
+    from {background-color: #FF3D00;}
+    to {background-color: #2196F3;}
+
+}
