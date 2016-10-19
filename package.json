@@ -1,0 +1,29 @@
+{
+  "name": "iot-api-project-lmelendez17",
+  "version": "1.0.0",
+  "description": "Start by cloning this repo, feel free to use [Github Desktop](https://desktop.github.com/). Then intialize an npm project with `npm init`. Feel free to add `start` as a script.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dataEntryServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KentDenverSchool/iot-api-project-lmelendez17.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KentDenverSchool/iot-api-project-lmelendez17/issues"
+  },
+  "homepage": "https://github.com/KentDenverSchool/iot-api-project-lmelendez17#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.3",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0"
+  }
+}
